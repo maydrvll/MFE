@@ -1,0 +1,102 @@
+header{
+	background-size: 100%;
+	background-position: center;
+	margin: 0.3%;
+	padding: 0.3%;
+	background-color: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+.navbar-default {
+	border: none;
+	background: none;
+	box-shadow: none;
+	display: block;
+	margin:auto;
+	width: 100%;
+	text-align: center;
+}
+
+#croixlogo{
+	width: 20%;
+}
+
+.navbar-default .navbar-nav>li>a{
+	border:none;
+	text-decoration: none;
+	font-family:berlin sans fb, sans-serif;
+	font-size: 150%;
+	color: #DD926F;
+	margin:auto;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a: hover{
+	color:# CA5F61;
+	background-color: none;
+}
+
+#panier {
+	background: url(images/mfe_panier.png) center no-repeat;
+	width: 5%;
+	height:12%;
+	position:absolute; 
+	top:5%;
+	right:1%;
+	text-align: center;
+	font-family: berlin sans fb, sans-serif;
+	font-size: 120%;
+	color:#3F3E3B;
+}
+
+#bandeau {
+	display:block;
+	margin:auto;
+}
+
+.croix{
+	text-align: center;
+	margin: 1%;
+}
+
+#info{
+	font-family: century gothic, sans-serif;
+	font-size: 120%;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align:justify;
+}
+
+.ethique{
+	margin: 2%;
+	padding:1%;
+	background-color:#DD926F;
+	width: 50%;
+}
+
+.fashion{
+	width: 30%;
+	margin: 2%;
+	padding: 1%;
+	background-color:#DD926F
+}
+
+
+
+.socialnetwork{
+	display: inline;
+	color: #DD926F;
+	font-size:100%;
+}

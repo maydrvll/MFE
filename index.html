@@ -1,56 +1,91 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
 	<title>Acceuil-My Fashion Ethic</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="My Fashion Ethic offre un nouveau regard sur la mode éthique grâce à une plate-forme très sélective de vente en ligne de vêtements tendances ET éthiques. Le site e-commerce rassemble des projets de mode ayant des valeurs communes : la solidarité">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<h1><img src="images/mfe_logo.png" width="100px"></h1>
-		<div> 
-		    <img src="images/mfe_panier.png" width="25px">
-		    <p>0</p>
-    	</div>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css" type"text/css">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
-    	<nav>
-			<ul>
-				<li><a href="#">créateurs</a></li>
-				<li><a href="#">collections</a></li>
-				<li><a href="#">concept</a></li>
-				<li><a href="#">blog</a></li>
-			</ul>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<link rel="stylesheet" href="style.css" type"text/css">
+</head>
+
+<body>
+
+	<header>
+		
+		<h1><img src="images/mfe_logo_sanscroix.png" width="10%" class="logo"></h1>
+		
+		<div id="panier"> 
+			<p>0</p>
+		</div>
+
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		      
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">concept</a></li>
+		        <li><a href="#">créateurs</a></li>
+		        <li><img src="images/mfe_croixlogo.png" width="50%"></li>
+		        <li><a href="#">collections</a></li>
+		        <li><a href="#">blog</a></li>
+		      </ul> 
+		    </div>
+		        		      
+		  </div><!-- /.container-fluid -->
 		</nav>
+
 	</header>
 
-		<section>
-			<div class="bandeau"><img src="images/mfe_homepage.png" width=100%></div>
+			<div id="bandeau"><img src="images/mfe_homepage.png" width=100%></div>
+			<div class="croix"><img src="images/mfe_croixlogo.png" width="6%">
 			
-			<div class="ethique">
-				<p>Si vous êtes déjà sensible à l’éthique, vous pensiez peut-être qu’elle est incompatible avec la mode ? My Fashion Ethic  déniche pour vous des créateurs animés par une même sensibilité : la solidarité concrète.
-				</p>
-				<p>Leur principale raison d’être est d’offrir un travail et une vie meilleure à de nombreuses femmes. Ils œuvrent pour responsabiliser ces femmes en leur proposant de prendre leur vie en main. Idéalistes, nous voulons croire qu’il est possible de fonder un business économiquement viable basé sur la générosité, le don, le partage et la collaboration.
-				</p>
-				<p>La mode est un puissant outil de développement et de lutte contre la pauvreté. My Fashion Ethic donne du sens à vos achats, place aux choix engagés.
-				</p>
-				<div class="infoconcept"><p>En savoir plus sur le concept My Fashion Ethic</p>
+			<section id="info">
+				<div class="ethique">
+					<p>Si vous êtes déjà sensible à l’éthique, vous pensiez peut-être qu’elle est incompatible avec la mode ? My Fashion Ethic  déniche pour vous des créateurs animés par une même sensibilité : la solidarité concrète.
+					</p>
+					<p>Leur principale raison d’être est d’offrir un travail et une vie meilleure à de nombreuses femmes. Ils œuvrent pour responsabiliser ces femmes en leur proposant de prendre leur vie en main. Idéalistes, nous voulons croire qu’il est possible de fonder un business économiquement viable basé sur la générosité, le don, le partage et la collaboration.
+					</p>
+					<p>La mode est un puissant outil de développement et de lutte contre la pauvreté. My Fashion Ethic donne du sens à vos achats, place aux choix engagés.
+					</p>
+					<div class="infoconcept"><p>En savoir plus sur le concept My Fashion Ethic</p>
+					</div>
 				</div>
-			</div>
+				
+				<div class="fashion">
+					<p>La mode éthique solidaire est un moyen d'affirmer votre identité.
+					</p>
+					<p>Cerise sur le gâteau, pour My Fashion Ethic, qui dit éthique dit souvent fait-main, série limitée et exclusivité. Les vêtements de notre sélection vous feront vous sentir unique.
+					</p>
+					<p>Craquez pour les collections de nos créateurs que nous avons  dénichés spécialement pour vous.
+					</p>
+					<div class="shopcreateurs"><p>En savoir plus sur le concept My Fashion Ethic</p>
+					</div>
+				</div>
+			</section>
 			
-			<div class="fashion">
-				<p>La mode éthique solidaire est un moyen d'affirmer votre identité.
-				</p>
-				<p>Cerise sur le gâteau, pour My Fashion Ethic, qui dit éthique dit souvent fait-main, série limitée et exclusivité. Les vêtements de notre sélection vous feront vous sentir unique.
-				</p>
-				<p>Craquez pour les collections de nos créateurs que nous avons  dénichés spécialement pour vous.
-				</p>
-				<div class="shopcreateurs"><p>En savoir plus sur le concept My Fashion Ethic</p>
-				</div>
-			</div>
-		</section>
-
+			<div class="croix"><img src="images/mfe_croixlogo.png" width="6%">
+	
 	<footer>
 		<div class="socialnetwork">
 			<ul>
@@ -66,5 +101,10 @@
 				<li><a href="#">paiement sécurisé</a> </li>
 			</ul>	
 	</footer>
+	
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	  <!-- Latest compiled and minified JavaScript -->
+	  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
