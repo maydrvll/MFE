@@ -1,3 +1,7 @@
+/*#######################
+			HEADER
+	#######################*/
+
 header{
 	background-size: 100%;
 	background-position: center;
@@ -6,28 +10,42 @@ header{
 	background-color: none;
 }
 
-h1 {
-	text-align: center;
+/*LOGO*/
+.logo {
+	display: block;
+	margin : auto;
+	position:relative;
+	z-index: 1031;
 }
 
+#croixlogo {
+	position: relative;
+	top: 10%;
+	display: block;
+	margin : auto;
+	z-index: 1031;
+
+}
+
+/*BAR DE NAV ECRAN*/
 .navbar .navbar-nav{
-	display: inline-block;
+	display: block;
+	margin : auto;
 	float: none;
 	text-align: center;
+	background-color: none;
+	width: 80%;
+	z-index: 1;
 }
 
 .navbar-default {
 	border: none;
-	background: none;
+	background: white;
 	box-shadow: none;
 	display: block;
 	margin:auto;
 	width: 100%;
 	text-align: center;
-}
-
-#croixlogo{
-	width: 20%;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -38,26 +56,70 @@ h1 {
 	color: #DD926F;
 	margin:auto;
 	text-align: center;
+	z-index:1;
 }
 
-.navbar-default .navbar-nav>li>a: hover{
-	color:# CA5F61;
+.navbar-default .navbar-nav>li>a:hover{
+	color:#CA5F61;
 	background-color: none;
 }
 
+
+/*BAR DE NAV MOBILE*/
+..navbar-toogle{
+	position: absolute;
+	float:left;
+	margin-left: 15px;
+	margin-top:40px;
+	margin-bottom:18px;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #CA5F61;
+}
+
+.navbar-default .navbar-toggle{
+	border-color:#CA5F61;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover{
+	background-color: #CA5F61;
+}
+
+.navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover{
+	background-color:white;
+}
+
+/*PANIER*/
 #panier {
-	background: url(images/mfe_panier.png) center no-repeat;
-	width: 5%;
-	height:12%;
-	position:absolute; 
-	top:5%;
+	background: url(icones/mfe_panier.ico) center no-repeat;
+	width: 7%;
+	height:25%;
+	position:fixed; 
+	top:6%;
 	right:1%;
 	text-align: center;
 	font-family: berlin sans fb, sans-serif;
 	font-size: 120%;
 	color:#3F3E3B;
+	z-index: 1032;
 }
 
+#panier:hover{
+	text-decoration: none;
+	background: url(icones/mfe_panier_hover.ico) center no-repeat;
+}
+
+/*#######################
+		CONTENU
+#######################*/
+
+/*BANDEAU*/
 #bandeau {
 	display:block;
 	margin:auto;
@@ -68,7 +130,8 @@ h1 {
 	margin: 1%;
 }
 
-#info{
+/*INFOS*/
+.row{
 	font-family: century gothic, sans-serif;
 	font-size: 120%;
 	color:white;
@@ -79,22 +142,20 @@ h1 {
 	text-align:justify;
 }
 
-.ethique{
-	margin: 2%;
-	padding:1%;
+.col-md-6 {
 	background-color:#DD926F;
-	width: 50%;
-}
-
-.fashion{
-	width: 30%;
-	margin: 2%;
 	padding: 1%;
-	background-color:#DD926F
+}
+
+.col-md-3 {
+	background-color:#DD926F;	
+	padding: 1%;
 }
 
 
-
+/*#######################
+		FOOTER
+#######################*/
 .socialnetwork{
 	display: inline;
 	color: #DD926F;
