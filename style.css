@@ -5,8 +5,6 @@
 header{
 	background-size: 100%;
 	background-position: center;
-	margin: 0.3%;
-	padding: 0.3%;
 	background-color: none;
 }
 
@@ -24,13 +22,13 @@ header{
 	display: block;
 	margin : auto;
 	z-index: 1031;
-
 }
 
 /*BAR DE NAV ECRAN*/
 .navbar .navbar-nav{
 	display: block;
-	margin : auto;
+	margin-left: auto;
+	margin-right: auto;
 	float: none;
 	text-align: center;
 	background-color: none;
@@ -66,13 +64,14 @@ header{
 
 
 /*BAR DE NAV MOBILE*/
-..navbar-toogle{
+.navbar-toogle{
 	position: absolute;
 	float:left;
 	margin-left: 15px;
 	margin-top:40px;
 	margin-bottom:18px;
 }
+
 
 .navbar-default .navbar-toggle .icon-bar{
 	background-color: #CA5F61;
@@ -81,6 +80,11 @@ header{
 .navbar-default .navbar-toggle{
 	border-color:#CA5F61;
 	background-color: transparent;
+	position: relative;
+	float:left;
+	margin-left: 15px;
+	margin-top:40px;
+	margin-bottom:18px;
 }
 
 .navbar-default .navbar-toggle:hover{
@@ -98,16 +102,21 @@ header{
 /*PANIER*/
 #panier {
 	background: url(icones/mfe_panier.ico) center no-repeat;
-	width: 7%;
-	height:25%;
+	width: 100px;
+	height: 200px;
 	position:fixed; 
-	top:6%;
-	right:1%;
+	top:4px;
+	right: 1px;
 	text-align: center;
 	font-family: berlin sans fb, sans-serif;
-	font-size: 120%;
 	color:#3F3E3B;
 	z-index: 1032;
+}
+
+#nb-article {
+	line-height: 110px;
+	font-size: 130%;
+
 }
 
 #panier:hover{
@@ -115,7 +124,7 @@ header{
 	background: url(icones/mfe_panier_hover.ico) center no-repeat;
 }
 
-/*#######################
+/*######################
 		CONTENU
 #######################*/
 
@@ -156,7 +165,7 @@ header{
 /*#######################
 		FOOTER
 #######################*/
-.socialnetwork{
+.fa{
 	display: inline;
 	color: #DD926F;
 	font-size:100%;
