@@ -91,6 +91,10 @@ header{
 	background-color: #CA5F61;
 }
 
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+
 .navbar-default .navbar-toggle:focus{
 	background-color: transparent;
 }
@@ -103,7 +107,7 @@ header{
 #panier {
 	background: url(icones/mfe_panier.ico) center no-repeat;
 	width: 100px;
-	height: 200px;
+	height: 100px;
 	position:fixed; 
 	top:4px;
 	right: 1px;
