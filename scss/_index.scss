@@ -1,0 +1,36 @@
+/*######################
+		INDEX
+#######################*/
+
+/*BANDEAU*/
+#bandeau {
+	display:block;
+	margin:auto;
+}
+
+.croix{
+	text-align: center;
+	margin: 1%;
+}
+
+/*INFOS*/
+.info .row{
+	font-family: $gothic;
+	font-size: 120%;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align:justify;
+}
+
+.col-md-6 {
+	background-color: $grisfond;
+	padding: 1%;
+}
+
+.info .row .col-md-3 {
+	background-color:$roseclair;	
+	padding: 1%;
+}
