@@ -49,8 +49,8 @@ header{
 .navbar-default .navbar-nav>li>a{
 	border:none;
 	text-decoration: none;
-	font-family:berlin sans fb, sans-serif;
-	font-size: 150%;
+	font-family: "Century Gothic",Arial,Helvetica,sans-serif;
+	font-size: 130%;
 	color: #DD926F;
 	margin:auto;
 	text-align: center;
@@ -60,6 +60,7 @@ header{
 .navbar-default .navbar-nav>li>a:hover{
 	color:#CA5F61;
 	background-color: none;
+	font-weight: bold;
 }
 
 
@@ -103,6 +104,7 @@ header{
 	background-color:white;
 }
 
+
 /*PANIER*/
 #panier {
 	background: url(icones/mfe_panier.ico) center no-repeat;
@@ -118,14 +120,71 @@ header{
 }
 
 #nb-article {
-	line-height: 110px;
+	line-height: 120px;
 	font-size: 130%;
-
 }
 
 #panier:hover{
 	text-decoration: none;
 	background: url(icones/mfe_panier_hover.ico) center no-repeat;
+}
+
+/*VERSION IPAD DU HEADER*/
+
+@media (max-width:991px) and (min-width:768px){
+	.logo {
+		display: block;
+		margin-left:10px;
+		position:relative;
+		z-index: 1031;
+	}
+
+	#croixlogo {
+		position: relative;
+		top: 10%;
+		display: block;
+		margin-left:10px;
+		z-index: 1031;
+	}
+
+	#panier {
+		width: 90px;
+		height: 90px;
+		top:3px;
+		right: 1px;
+	}
+
+	#nb-article {
+		line-height: 110px;
+	}
+
+	.navbar .navbar-nav{
+	margin-left: 80px;
+	width: 100%;
+	}
+}
+
+/*VERSION MOBILE DU PANIER ET DU LOGO*/
+
+@media (max-width:767px){
+	#panier {
+		width: 40px;
+		height:57px;
+		top:30px;
+		right: 10px;
+	}
+	
+	#nb-article {
+		line-height: 65px;
+	}
+
+	.logo {
+		width: 80px;
+	}
+
+	#croixlogo {
+		width: 60px;
+	}
 }
 
 /*######################
@@ -156,7 +215,7 @@ header{
 }
 
 .col-md-6 {
-	background-color:#DD926F;
+	background-color:#969696;
 	padding: 1%;
 }
 
@@ -169,8 +228,59 @@ header{
 /*#######################
 		FOOTER
 #######################*/
-.fa{
+
+.contact ul li{
 	display: inline;
-	color: #DD926F;
-	font-size:100%;
+	float:left;
+	padding:1%;
 }
+
+.contact>ul>li a{
+	color: #DD926F;
+	font-size:130%;
+}
+
+.contact>ul>li a:hover{
+	color: #CA5F61;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.socialnetwork ul li{
+	display: inline;
+	float:right;
+	padding:0.5%;
+}
+
+.fa{
+	color: #DD926F;
+	font-size:200%;
+}
+
+.fa:hover{
+	color: #CA5F61;
+	text-decoration: none;
+}
+
+/*VERSION MOBILE DU FOOTER*/
+
+@media (max-width:570px){
+	.fa{
+		font-size:180%;
+	}	
+	.contact>ul>li a{
+		font-size:120%;
+	}
+}
+
+@media (max-width:478px){
+
+	.socialnetwork ul li{
+		float:center;
+	}	
+
+	.contact ul li{
+		float:center;
+	}
+}
+
