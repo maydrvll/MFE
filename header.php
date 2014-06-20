@@ -42,9 +42,9 @@
 								<!--LOGO-->
 		
 		<h1>
-			<img src="images/mfe_logo_sanscroix.png" width="10%" class="logo">
+			<a href="index.php"><img src="images/mfe_logo_sanscroix.png" width="10%" class="logo">
 
-			<img id="croixlogo" src="images/mfe_croixlogo.png" width="10%">
+			<img id="croixlogo" src="images/mfe_croixlogo.png" width="10%"></a>
 		</h1>
 
 								<!--PANIER-->
@@ -74,7 +74,7 @@
 				        <div class="row">
 					         <ul class="nav navbar-nav">
 						        <li class="col-md-2 col-md-offset-1"><a href="#">concept</a></li>
-						        <li class="col-md-2 col-md-offset-0"><a href="#">créateurs</a></li>
+						        <li class="col-md-2 col-md-offset-0"><a href="createurs.php">créateurs</a></li>
 						        <li class="col-md-2 col-md-offset-2"><a href="#">collections</a></li>
 						        <li class="col-md-2 col-md-offset-0"><a href="#">blog</a></li>
 					        </ul>
