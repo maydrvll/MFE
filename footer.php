@@ -2,6 +2,8 @@
 			FOOTER
 	#######################-->
 
+	<div class="croix"><img src="images/mfe_croixlogo.png" width="10%"></div>
+
 	<footer>
 		<div class="contact">
 			<ul>

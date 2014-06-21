@@ -73,9 +73,9 @@
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				        <div class="row">
 					         <ul class="nav navbar-nav">
-						        <li class="col-md-2 col-md-offset-1"><a href="#">concept</a></li>
+						        <li class="col-md-2 col-md-offset-1"><a href="concept.php">concept</a></li>
 						        <li class="col-md-2 col-md-offset-0"><a href="createurs.php">créateurs</a></li>
-						        <li class="col-md-2 col-md-offset-2"><a href="#">collections</a></li>
+						        <li class="col-md-2 col-md-offset-2"><a href="collections.php">collections</a></li>
 						        <li class="col-md-2 col-md-offset-0"><a href="#">blog</a></li>
 					        </ul>
 				       </div>    

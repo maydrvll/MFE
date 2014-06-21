@@ -8,38 +8,40 @@
 		<section class="createurs">
 			<div class="row">
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_myphilo.png"></a>
-					<p>My Philosophy</p>
+					<a href="myphilo.php"><p style="color:white">My Philosophy</p>
+					<img src="images/mfe_myphilo.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_ilemarion.png"></a>
-					<p>L'île Marion</p>
+					<a href="#"><p>L'île Marion</p>
+					<img src="images/mfe_ilemarion.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs3</p>
+					<a href="#"><p>createurs3</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs4</p>
+					<a href="#"><p>createurs4</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs5</p>
+					<a href="#"><p>createurs5</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs6</p>
+					<a href="#"><p>createurs6</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs7</p>
+					<a href="#"><p>createurs7</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 				<div class="col-md-3">
-					<a href="#"><img src="images/mfe_photos_createurs.png"></a>
-					<p>createurs8</p>
+					<a href="#"><p>createurs8</p>
+					<img src="images/mfe_photos_createurs.png"></a>
 				</div>
 			</div>	
 		</section>
+
+		
 
 <?php include 'footer.php'; ?>

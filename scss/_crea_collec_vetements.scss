@@ -1,0 +1,105 @@
+/*#######################
+		CREATEURS ET COLLECTIONS
+#######################*/
+
+/*CREATEURS COLLECTION ET VETEMENTS : PRESENTATION GENERALE*/
+
+.createurs .row , .collections .row , .vetements .row{
+	font-family: $policelogo;
+	font-size: 200%;
+	color: $grispolice;
+	text-align:center;
+}
+
+ /*CREATEURS COLLECTION : NOM CATEGORIE EN BAS*/
+
+.createurs .row , .collections .row .col-md-3{
+	background-color: none;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+
+.createurs .row .col-md-3>a>p, .collections .row .col-md-3>a>p{
+	position: relative;
+	top:350px;
+}
+
+.createurs .row .col-md-3>a>:hover, .collections .row .col-md-3>a>p:hover{
+	font-weight: bold;
+}
+
+/*BRIGHT*/
+.bright_pic {
+-webkit-filter: brightness(85%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.bright_pic:hover {
+  -webkit-filter: brightness(130%);
+}
+
+
+/*VETMENTS : AFFICHAGE DU PRIX AU PASSAGE DE LASOURIE*/
+
+.vetements .row{
+	margin-bottom: -15px;
+}
+
+.vetements .row .col-md-3 {
+	margin-bottom: 10px;
+}
+
+/*.vetements .row .col-md-3>a .transparence{
+	background-color: white;
+	opacity: 0.4;
+	z-index:10;
+	width: 283px;
+	height: 369px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}*/
+
+.vetements .row .col-md-3>a .transparence>img {
+	z-index:9;
+	width: 283px;
+	height: 369px;
+	/*display: none;*/
+}
+
+.vetements .row .col-md-3>a>p{
+	position: relative;
+	top:-215px;
+	z-index:11;
+	font-weight: bold;
+	/*display: none;*/
+}
+
+/*.vetements .row .col-md-3>a>p:hover{
+	display: inline-block;
+}
+
+.vetements .row .col-md-3>a .transparence:hover{
+	display: inline-block;
+} */
+
+
+.blur_pic {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.blur_pic:hover {
+  -webkit-filter: blur(1px);
+}
+
+/*.vetements .row .col-md-3>a>p:hover{
+	display: inline;
+}*/
