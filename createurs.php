@@ -7,9 +7,12 @@
 	<body>
 		<section class="createurs">
 			<div class="row">
+
+				
 				<div class="col-md-3">
 					<a href="myphilo.php"><p style="color:white">My Philosophy</p>
-					<img src="images/mfe_myphilo.png"></a>
+					<div class="blur_pic"><img src="images/mfe_myphilo.png"></a>
+				</div>
 				</div>
 				<div class="col-md-3">
 					<a href="#"><p>L'île Marion</p>
