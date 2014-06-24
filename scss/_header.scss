@@ -28,6 +28,7 @@ header{
 }
 
 /*BAR DE NAV ECRAN*/
+
 .navbar .navbar-nav{
 	display: block;
 	margin-left: auto;
@@ -66,8 +67,21 @@ header{
 	color: $rosefonce;
 	background-color: none;
 	font-weight: bold;
+ 	-webkit-box-shadow: none;
 }
 
+.navbar-default .navbar-nav>.active>a{
+	color: $rosefonce;
+	background: none;
+	font-weight: bold;
+	-webkit-box-shadow: none;
+}
+
+.navbar-default .navbar-nav>.active>a:hover{
+	color: $rosefonce;
+	background: none;
+	font-weight: bold;
+}
 
 /*BAR DE NAV MOBILE*/
 .navbar-toogle{
@@ -112,7 +126,7 @@ header{
 
 /*PANIER*/
 #panier {
-	background: url(../images/mfe_panier.ico) center no-repeat;
+	background: url(images/mfe_panier.ico) center no-repeat;
 	width: 100px;
 	height: 100px;
 	position:fixed; 
@@ -131,7 +145,7 @@ header{
 
 #panier:hover{
 	text-decoration: none;
-	background: url(../images/mfe_panier_hover.ico) center no-repeat;
+	background: url(images/mfe_panier_hover.ico) center no-repeat;
 }
 
 /*VERSION IPAD DU HEADER*/

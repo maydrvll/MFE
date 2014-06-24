@@ -1,5 +1,22 @@
+
+<?php
+/*
+Template Name: index
+*/
+?>
 							
-<?php include 'header.php'; ?>
+<?php get_header(); ?>
+
+
+
+<?php if (have_posts()) : ?>
+		        	<?php while (have_posts()) : the_post(); ?>
+			            <div>
+			              <?php the_content(); ?>
+			            </div>
+
+			      	<?php endwhile; ?>
+		    		<?php endif; ?>
 
 	<!--#######################
 			CONTENUS
@@ -7,8 +24,8 @@
 
 								<!--BANDEAU-->
 
-			<div id="bandeau"><img src="images/mfe_homepage.png" width="100%"></div>
-			<div class="croix"><img src="images/mfe_croixlogo.png" width="10%">
+			<div id="bandeau"><img src="<?php bloginfo('template_directory'); ?>/images/mfe_homepage.png" width="100%"></div>
+			<div class="croix"><img src="<?php bloginfo('template_directory'); ?>/images/mfe_croixlogo.png" width="10%">
 			
 								<!--INFOS-->
 
@@ -39,6 +56,6 @@
 			FIN CONTENUS
 	#######################-->
 
-<?php include 'footer.php'; ?>
+<?php get_footer(); ?>
 
 	
