@@ -29,18 +29,18 @@ Template Name: liste_createurs
 				<div class="col-md-3">
 					
 						<?php
-					 // Get the ID of a given category
-					 $category_id = get_cat_ID( 'My Philosophy' );
-
-					 // Get the URL of this category
-					 $category_link = get_category_link( $category_id );
+					 
+					 // récupére le lien de la prod cat my philo avec l'ID
+					 $category_link = get_term_link( 24, 'product_cat' );
 					    ?>
 
-					<!-- Print a link to this category -->
+					<!-- Print a link to this prod category -->
 
-					<a href="<?php echo esc_url( $category_link ); ?>"title="My Philosophy"> My Philosophy </a>
-						
+					<a href="<?php echo esc_url( $category_link ); ?>"> <p style="color:white"> My Philosophy <p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/mfe_myphilo.png">
+					</a>
+						
+						
 			
 
 				</div>
@@ -48,18 +48,16 @@ Template Name: liste_createurs
 				<div class="col-md-3">
 
 					<?php
-					    // Get the ID of a given category
-					    $category_id = get_cat_ID( 'Ile Marion' );
-
-					    // Get the URL of this category
-					    $category_link = get_category_link( $category_id );
+					   
+					    // récupére le lien de la prod cat ile marion avec l'ID
+					    $category_link = get_term_link( 25, 'product_cat' );
 					?>
 
-					<!-- Print a link to this category -->
+					<!-- Print a link to this prod category -->
 
-					<a href="<?php echo esc_url( $category_link ); ?>" title="Ile Marion"> Ile Marion </a>
-						
+					<a href="<?php echo esc_url( $category_link ); ?>"> <p> Ile Marion </p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/mfe_ilemarion.png">
+					</a>
 					
 				</div>
 
