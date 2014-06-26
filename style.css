@@ -721,7 +721,7 @@ header {
 
 /* line 141, scss/_header.scss */
 #nb-article {
-  line-height: 120px;
+  line-height: 80px;
   font-size: 130%;
 }
 
@@ -760,7 +760,7 @@ header {
 
   /* line 176, scss/_header.scss */
   #nb-article {
-    line-height: 110px;
+    line-height: 70px;
   }
 
   /* line 180, scss/_header.scss */
@@ -781,7 +781,7 @@ header {
 
   /* line 196, scss/_header.scss */
   #nb-article {
-    line-height: 65px;
+    line-height: 40px;
   }
 
   /* line 200, scss/_header.scss */
@@ -791,7 +791,7 @@ header {
 
   /* line 204, scss/_header.scss */
   #croixlogo {
-    width: 60px;
+    width: 50px;
   }
 }
 /*#######################
@@ -891,7 +891,7 @@ header {
 }
 
 /* line 28, scss/_index.scss */
-.col-md-6 {
+.info .row .col-md-6 {
   background-color: #969696;
   padding: 1%;
 }
@@ -1013,9 +1013,39 @@ header {
 }*/
 /* line 1, scss/_concept.scss */
 .presentation {
-  margin-bottom: 5%;
-  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-top: -1%;
   margin-right: 3%;
   margin-left: 3%;
   text-align: justify;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+}
+
+/* line 10, scss/_concept.scss */
+.presentation .row .col-md-4 {
+  background-color: white;
+  padding: 2%;
+}
+
+/* line 15, scss/_concept.scss */
+.presentation .row .col-md-5 {
+  background-color: white;
+  padding: 2%;
+}
+
+/* line 20, scss/_concept.scss */
+.presentation .row .col-md-6 {
+  background-color: white;
+  padding: 2%;
+}
+
+/* line 25, scss/_concept.scss */
+.presentation .row .col-md-7 {
+  background-color: white;
+  padding: 2%;
+}
+
+/* line 31, scss/_concept.scss */
+span {
+  font-weight: bold;
 }

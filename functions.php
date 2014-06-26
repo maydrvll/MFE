@@ -39,3 +39,9 @@ remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 3
 remove_action( 'woocommerce_before_main_content','woocommerce_breadcrumb', 20, 0);
 
 add_theme_support( 'woocommerce' );
+
+add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
+function woo_hide_page_title() {
+	
+	return false;
+	}

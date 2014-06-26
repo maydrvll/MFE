@@ -1,15 +1,34 @@
 .presentation{
-	margin-bottom:5%;
-	margin-top: 5%;
+	margin-bottom:2%;
+	margin-top: -1%;
 	margin-right: 3%;
 	margin-left: 3%;
 	text-align: justify;
+	font-family: $gothic;
 }
 
-.col-md-4 .col-md-offset-0{
+.presentation .row .col-md-4{
+	background-color: white;
+	padding: 2%;
+}		
 
+.presentation .row .col-md-5{
+	background-color: white;
+	padding: 2%;
 }
 
-.col-md-5 .col-md-offset-1{
-
+.presentation .row .col-md-6{
+	background-color: white;
+	padding: 2%;
 }
+
+.presentation .row .col-md-7{
+	background-color: white;
+	padding: 2%;
+}
+
+
+span{
+	font-weight: bold;
+}
+

@@ -17,7 +17,7 @@
 				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 				<li><a href="#"><i class="fa fa-youtube-square"></i></a></li>
 				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="https://www.facebook.com/myfashionethic"><i class="fa fa-facebook-square"></i></a></li>
+				<li><a target="_blank" href="https://www.facebook.com/myfashionethic"><i class="fa fa-facebook-square"></i></a></li>
 			</ul>
 		</div>
 			
@@ -47,7 +47,7 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>-->
 	
-			
-
+		<?php wp_footer(); ?>	
+		
 	</body>
 </html>

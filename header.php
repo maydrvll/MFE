@@ -53,7 +53,7 @@
 
 								<!--PANIER-->
 
-		<a id="panier" href=#>
+		<a id="panier" href="#"> 
 			<div>
 				<p id="nb-article">0</p>
 			</div>
