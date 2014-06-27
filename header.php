@@ -30,7 +30,7 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type"text/css">
 
-	        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	        <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
 <!--FIN DU HEAD-->
