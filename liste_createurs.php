@@ -22,6 +22,13 @@ Template Name: liste_createurs
 			CONTENUS
 	#######################-->
 
+	<div class="underconstruction"> 
+		<p>Le site est en construction.</p> 
+		<p>Encore un peu de patience, vous pourrez shopper du style en septembre !</p>
+	</div>
+
+		
+		<!-- 
 		<section class="createurs">
 			<div class="row">
 
@@ -31,17 +38,15 @@ Template Name: liste_createurs
 						<?php
 					 
 					 // récupére le lien de la prod cat my philo avec l'ID
-					 $category_link = get_term_link( 24, 'product_cat' );
+					 $category_link = get_term_link( 16, 'product_cat' );
 					    ?>
 
-					<!-- Print a link to this prod category -->
 
-					<a href="<?php echo esc_url( $category_link ); ?>"> <p style="color:white"> My Philosophy <p>
+					<a href="<?php echo esc_url( $category_link ); ?>"> <p style="color:white"> My Philosophy </p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/mfe_myphilo.png">
 					</a>
 						
-						
-			
+							
 
 				</div>
 
@@ -50,10 +55,9 @@ Template Name: liste_createurs
 					<?php
 					   
 					    // récupére le lien de la prod cat ile marion avec l'ID
-					    $category_link = get_term_link( 25, 'product_cat' );
+					    $category_link = get_term_link( 15, 'product_cat' );
 					?>
 
-					<!-- Print a link to this prod category -->
 
 					<a href="<?php echo esc_url( $category_link ); ?>"> <p> Ile Marion </p>
 						<img src="<?php bloginfo('template_directory'); ?>/images/mfe_ilemarion.png">
@@ -88,7 +92,8 @@ Template Name: liste_createurs
 				</div>
 			</div>	
 		</section>
-
-		
+	-->
+	
+	
 
 <?php get_footer(); ?>

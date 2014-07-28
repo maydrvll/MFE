@@ -3,9 +3,9 @@
 #######################*/
 
 /*BANDEAU*/
-#bandeau {
-	display:block;
-	margin:auto;
+.col-md-6{
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .croix{
@@ -17,7 +17,7 @@
 .info .row{
 	font-family: $gothic;
 	font-size: 120%;
-	color:white;
+	color: $grispolice;
 	margin-right:auto;
 	margin-left:auto;
 	margin-top: 2%;
@@ -26,11 +26,11 @@
 }
 
 .info .row .col-md-6 {
-	background-color: $grisfond;
+	border: 2px solid $roseclair;
 	padding: 1%;
 }
 
 .info .row .col-md-3 {
-	background-color:$roseclair;	
+	border: 2px solid $roseclair;	
 	padding: 1%;
 }

@@ -866,9 +866,9 @@ header {
 #######################*/
 /*BANDEAU*/
 /* line 6, scss/_index.scss */
-#bandeau {
-  display: block;
-  margin: auto;
+.col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* line 11, scss/_index.scss */
@@ -882,7 +882,7 @@ header {
 .info .row {
   font-family: "Century Gothic", Arial, Helvetica, sans-serif;
   font-size: 120%;
-  color: white;
+  color: #3f3e3b;
   margin-right: auto;
   margin-left: auto;
   margin-top: 2%;
@@ -892,13 +892,13 @@ header {
 
 /* line 28, scss/_index.scss */
 .info .row .col-md-6 {
-  background-color: #969696;
+  border: 2px solid #dd926f;
   padding: 1%;
 }
 
 /* line 33, scss/_index.scss */
 .info .row .col-md-3 {
-  background-color: #dd926f;
+  border: 2px solid #dd926f;
   padding: 1%;
 }
 
@@ -1011,6 +1011,15 @@ header {
 /*.vetements .row .col-md-3>a>p:hover{
 	display: inline;
 }*/
+/* line 107, scss/_crea_collec_vetements.scss */
+.underconstruction {
+  text-align: center;
+  margin: 5%;
+  padding: 5%;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 /* line 1, scss/_concept.scss */
 .presentation {
   margin-bottom: 2%;
@@ -1048,4 +1057,12 @@ header {
 /* line 31, scss/_concept.scss */
 span {
   font-weight: bold;
+}
+
+/* line 1, scss/_contact.scss */
+.infocontact {
+  text-align: center;
+  padding: 1%;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
